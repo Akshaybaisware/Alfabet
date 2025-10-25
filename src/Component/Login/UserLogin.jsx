@@ -14,10 +14,10 @@ import { useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import { useToast } from "@chakra-ui/react";
 import axios from "axios";
-import logo from "../../Images/TRICKLINE_2.png";
+import logo from "../../Images/ALFABET LOGO.png";
 import { jwtDecode } from "jwt-decode";
 import { useUserContext } from "../Context/UserContext";
-import bg from "../../Images/dataentry_adminbg.webp";
+import bg from "../../Images/alfabe_bg.jpg";
 import { keyframes, css } from "@chakra-ui/react";
 const borderAnimation = keyframes`
   0% {
@@ -423,8 +423,8 @@ const buttonStyle = {
   borderRadius: "25px",
   border: "2px solid black",
   color: "#fff",
-  background: "#6BC15C",
-  background: "#6BC15C",
+  background: "#00025A",
+
   fontWeight: "700",
   fontFamily: '"Poppins", sans-serif',
 };

@@ -269,10 +269,10 @@ import { FaEnvelope, FaLock } from "react-icons/fa"; // Icons from react-icons l
 import { NavLink, useNavigate } from "react-router-dom";
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import logo from "../../Images/TRICKLINE_2.png";
+import logo from "../../Images/ALFABET LOGO.png";
 import { jwtDecode } from "jwt-decode";
 import { useUserContext } from "../Context/UserContext";
-import bg from "../../Images/dataentry_adminbg.webp";
+import bg from "../../Images/alfabe_bg.jpg";
 // Define a light-weight background image URL (replace with your preferred URL)
 
 const borderAnimation = keyframes`
@@ -490,12 +490,13 @@ const LoginAdmin = () => {
           </Box> */}
 
           <Button
-            bg={"#6BC15C"}
+            bg={"#00025A"}
             height={"3rem"}
             style={buttonStyle}
             type="submit"
             onClick={handleSubmit}
-            _hover={{ background: "FloralWhite", color: "black" }}
+            // _hover={{ background: "FloralWhite", color: "black" }}
+            // _hover={{ background: "FloralWhite", color: "black" }}
             isDisabled={loading} // Disable the button while loading
           >
             {loading ? <Spinner size="sm" color="gray" /> : "Login"}{" "}
@@ -526,15 +527,16 @@ const buttonStyle = {
   width: "100%",
   borderRadius: "25px",
   border: "2px solid black",
-  color: "black",
-  bg: "#6BC15C",
+  color: "white",
+  bg: "#00025A",
   fontWeight: "700",
   fontFamily: '"Poppins", sans-serif',
   transition: "background 0.3s, color 0.3s",
-  ":hover": {
-    background: "FloralWhite",
-    color: "black",
-  },
+  
+  // ":hover": {
+  //   background: "FloralWhite",
+  //   color: "black",
+  // },
 };
 
 export default LoginAdmin;

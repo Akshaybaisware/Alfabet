@@ -120,10 +120,10 @@
  
 
 import React from "react";
-import logo from "../../Images/TRICKLINE_2.png";
+import logo from "../../Images/ALFABET LOGO.png";
 import { NavLink } from "react-router-dom";
 import { Box, Button, Image, keyframes } from "@chakra-ui/react";
-import bgImage from "../../Images/dataentry_banner.webp";
+import bgImage from "../../Images/alfabe_bg.jpg";
 
 // Define keyframes for animations
 const float = keyframes`
@@ -174,7 +174,7 @@ const Login = () => {
           position="relative"
           animation={`${fadeIn} 2s ease-in-out`}
         >
-          Data Entry Work - Highest Paid Data Entry Jobs - Earn from Home
+          Highest Paid Data Entry Jobs - Earn from Home
         </Box>
 
         {/* Floating logo with rounded corners and colored background */}
@@ -215,7 +215,7 @@ const Login = () => {
               borderRadius="25px"
               border="2px solid gray"
               color="pink"
-              background="#6BC15C"
+              background="#00025A"
               fontWeight={700}
               fontFamily='"Poppins", sans-serif'
               mt="20px"
@@ -234,7 +234,7 @@ const Login = () => {
               borderRadius="25px"
               border="2px solid gray"
               color="pink"
-              background="#6BC15C"
+              background="#00025A"
               fontWeight={700}
               fontFamily='"Poppins", sans-serif'
               mt="20px"
