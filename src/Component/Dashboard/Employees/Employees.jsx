@@ -1,5 +1,3 @@
-
-
 // import React, { useEffect, useState } from "react";
 // import DataTable from "react-data-table-component";
 // import {
@@ -123,7 +121,7 @@
 //       />
 //     </Center>
 //   ) : (
-   
+
 //       <Box mt="1.5rem" w="80%" p="4">
 //         <Flex direction={"column"} alignItems="center" mb="4">
 //           <Text fontSize="2rem" fontWeight="700">
@@ -138,8 +136,6 @@
 //         <Input placeholder="Search" mb="4" />
 //         <DataTable columns={columns} data={data} pagination />
 //       </Box>
-   
-   
 
 //   );
 // }
@@ -170,7 +166,8 @@ function EmployeesTable() {
   const handeleEmployee = async (id) => {
     try {
       const response = await axios.post(
-        "https://glorry-bakcend-updated-production.up.railway.app/api/employee/deleteemployee",
+        // "https://glorry-bakcend-updated-production.up.railway.app/api/employee/deleteemployee",
+        "http://3.111.38.169:5000/api/employee/deleteemployee",
         {
           employeeId: id,
         }
@@ -238,7 +235,8 @@ function EmployeesTable() {
     setloading(true);
     try {
       const response = await fetch(
-        "https://glorry-bakcend-updated-production.up.railway.app/api/employee/getallemployee",
+        // "https://glorry-bakcend-updated-production.up.railway.app/api/employee/getallemployee",
+        "http://3.111.38.169:5000/api/employee/getallemployee",
         {
           method: "GET",
           headers: {
@@ -271,7 +269,7 @@ function EmployeesTable() {
     </Center>
   ) : (
     // <Box mt="1.5rem" w={{ base: "50%", md: "80%", lg: "70%" }} p={{ base: "2", md: "4" }}>
-    <Box width={{ base: "81vw", md: "80vw" }} overflowX="auto" p={4}> 
+    <Box width={{ base: "81vw", md: "80vw" }} overflowX="auto" p={4}>
       <Flex
         direction={{ base: "column", md: "row" }}
         justifyContent="space-between"
@@ -296,4 +294,3 @@ function EmployeesTable() {
 }
 
 export default EmployeesTable;
-

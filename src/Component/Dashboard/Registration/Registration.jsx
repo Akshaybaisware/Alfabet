@@ -124,9 +124,21 @@ const Registration = () => {
     const url = { url: `http://${hostName}:${port}/` };
     // console.log(url, "Responce URl");
     try {
-      const response = await axios.post(`${apiUrl}/user/senduserinfo`, {
-        userID: userId,
-      });
+      // const response = await axios.post(`${apiUrl}/user/senduserinfo`, {
+      //   userID: userId,
+      // });
+
+      const response = await axios.post(
+        // `http://localhost:5000/api/user/senduserinfo`,
+
+        // `http://3.111.38.169:5000/api/user/senduserinfo`,
+        // "https://alfabet-backend.onrender.com/api/user/senduserinfo",
+        // "https://zemixbe-production-9fd5.up.railway.app/api/user/senduserinfo",
+        `${apiUrl}/user/senduserinfo`,
+        {
+          userID: userId,
+        }
+      );
       console.log(response, "url mil jayega");
 
       if (response.status === 200) {
@@ -378,7 +390,8 @@ const Registration = () => {
       // console.log("email function", localStorage.getItem("token"));
       const response = await axios.post(
         // "https://zemixbe-production.up.railway.app/api/user/sendconfirmmail",
-        "https://glorry-bakcend-updated-production.up.railway.app/api/user/senduserinfo",
+        // "https://glorry-bakcend-updated-production.up.railway.app/api/user/senduserinfo",
+        `${apiUrl}/user/sendconfirmmail`,
         {
           email: email,
           // userID: localStorage.getItem("token")._id

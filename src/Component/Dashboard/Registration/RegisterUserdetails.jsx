@@ -118,9 +118,18 @@ const RegisterUserDetail = () => {
     const url = { url: `http://${hostName}:${port}/` };
     // console.log(url, "Responce URl");
     try {
-      const response = await axios.post(`${apiUrl}/user/senduserinfo`, {
-        userID: userId,
-      });
+      // const response = await axios.post(`${apiUrl}/user/senduserinfo`, {
+      //   userID: userId,
+      // });
+
+      const response = await axios.post(
+        // `http://localhost:5000/api/user/senduserinfo`,
+        `${apiUrl}/user/senduserinfo`,
+
+        {
+          userID: userId,
+        }
+      );
       // console.log(response, "url mil jayega");
 
       if (response.status === 200) {

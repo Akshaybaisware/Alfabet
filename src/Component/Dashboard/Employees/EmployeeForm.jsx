@@ -46,7 +46,7 @@
 //     } catch (err) {
 //       toast({
 //         title: "Email has Already been used",
-        
+
 //         status: "error",
 //         duration: 3000, // Toast message will disappear after 3 seconds
 //         isClosable: true,
@@ -81,7 +81,7 @@
 //             {errors.name && <Box color="red">{errors.name.message}</Box>}
 //           </FormControl>
 //           <FormControl>
-//             <FormLabel 
+//             <FormLabel
 //             marginLeft={'2rem'}
 //             textAlign="top"  width={{ base: "33%", md: "55%" }}>
 //               Mobile Number
@@ -189,7 +189,6 @@
 // };
 
 // export default Employeeform;
-
 
 // import React, { useState, useRef } from "react";
 // import { useForm, Controller } from "react-hook-form";
@@ -461,7 +460,11 @@ import {
 import { useNavigate } from "react-router-dom";
 
 function AddEmployees() {
-  const { handleSubmit, control, formState: { errors } } = useForm();
+  const {
+    handleSubmit,
+    control,
+    formState: { errors },
+  } = useForm();
   const navigate = useNavigate();
   const toast = useToast();
   const name = useRef();
@@ -474,20 +477,24 @@ function AddEmployees() {
   const handleSubmitemployee = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("https://glorry-bakcend-updated-production.up.railway.app/api/employee/addemployee", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          name: name.current.value,
-          email: email.current.value,
-          mobile: mobile.current.value,
-          branch: branch.current.value,
-          address: address.current.value,
-          designation: designation.current.value,
-        }),
-      });
+      const response = await fetch(
+        // "https://glorry-bakcend-updated-production.up.railway.app/api/employee/addemployee",
+        "http://3.111.38.169:5000/api/employee/addemployee",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            name: name.current.value,
+            email: email.current.value,
+            mobile: mobile.current.value,
+            branch: branch.current.value,
+            address: address.current.value,
+            designation: designation.current.value,
+          }),
+        }
+      );
       const responseData = await response.json();
       if (responseData.isAdded) {
         toast({
@@ -661,4 +668,3 @@ function AddEmployees() {
 }
 
 export default AddEmployees;
-
