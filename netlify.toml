@@ -6,7 +6,7 @@
 # Proxy API requests to your backend
 [[redirects]]
     from = "/api/*"
-    to = "http://3.111.38.169:5000/:splat"
+    to = "http://3.111.38.169:5000/api/:splat"
     status = 200
     force = true
 
