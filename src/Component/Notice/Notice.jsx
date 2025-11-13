@@ -53,23 +53,23 @@ function Notice() {
       <Flex justify="space-between" mb="20px" alignItems="center">
         {/* Left Section */}
         <Box>
-          <Text fontSize={"0.7rem"} fontWeight="bold">
+          {/* <Text fontSize={"0.7rem"} fontWeight="bold">
             FAX: 4445736
+          </Text> */}
+          <Text fontSize={"0.7rem"} fontWeight="bold">
+           Mara Rani Apartment office 189 Janganana Bhawan
           </Text>
           <Text fontSize={"0.7rem"} fontWeight="bold">
-            Shivnath Apartment, Plot Number
+        First and Second Floor, Plot No. 2B, Madhya Marg, Sector-19A
           </Text>
           <Text fontSize={"0.7rem"} fontWeight="bold">
-            Postmaster Post Office, Jodhpur,{" "}
+           Punjab Chandigarh, 160019
           </Text>
           <Text fontSize={"0.7rem"} fontWeight="bold">
-            Rajasthan - 342001
+            Phone: +91-8055397842
           </Text>
           <Text fontSize={"0.7rem"} fontWeight="bold">
-            Phone: +91-987654###
-          </Text>
-          <Text fontSize={"0.7rem"} fontWeight="bold">
-            Email: info@trickline.com
+            Email:  servicealfabit79@gmail.com
           </Text>
         </Box>
 

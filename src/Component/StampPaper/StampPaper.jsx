@@ -18,8 +18,8 @@ import { Spinner } from "@chakra-ui/react";
 // import Front from "../../assets/Frontnew.jpg";
 // import frontpage from "../../assets/frontpage.jpg";
 // import sign from "../../assets/cropto stamp.svg";
-import front from "../../Images/Trickline_STAMP.svg";
-import stamplogo from "../../Images/trickline_horizontal.svg";
+import front from "../../Images/alfabet legal.svg";
+import stamplogo from "../../Images/Alfabet-stamp.svg";
 import notri from "../../Images/notriimages.jpg";
 import image from "../../Images/SVG STAM.svg";
 

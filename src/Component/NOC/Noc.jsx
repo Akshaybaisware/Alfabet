@@ -264,7 +264,7 @@ import {
 } from "@chakra-ui/react";
 import axios from "axios";
 import SIGN from "../../Images/advocatesign2.png";
-import LOGO from "../../Images/Trickline_circle.svg";
+import LOGO from "../../Images/Alfabet circle.svg";
 import BACKGROUND from "../../Images/TRICKLINE_2.png";
 
 function Noc() {
