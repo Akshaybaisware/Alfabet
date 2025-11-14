@@ -35,7 +35,7 @@ const blink = keyframes`
 const BlinkingImage = styled.img`
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  right: 80px;
   width: 50px;
   height: 50px;
   cursor: pointer;
@@ -245,7 +245,7 @@ function ContentValidationfrom() {
         url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Whisper&display=swap')
       </style>
 
-      <Box bg={"lightgray"}>
+      <Box bg={"lightgray"} >
         <Box>
           <Text
             style={{
@@ -358,47 +358,102 @@ function ContentValidationfrom() {
         >
           Start Your Assignment
         </Text>
-        <Box bg={"smokewhite"}>
-          <Text mt={"0.5rem"} fontFamily="sans-serif">
-            First Name:
-          </Text>
-          <Input fontFamily="sans-serif" ref={name} />
-          <Text mt={"0.5rem"} fontFamily="sans-serif">
-            Last Name:
-          </Text>
-          <Input fontFamily="sans-serif" ref={mobile} />
-          <Text mt={"0.5rem"} fontFamily="sans-serif">
-            Zipcode:
-          </Text>
-          <Input fontFamily="sans-serif" ref={jobFunctional} />
-          <Text mt={"0.5rem"} fontFamily="sans-serif">
-            Email:
-          </Text>
-          <Input fontFamily="sans-serif" ref={address} />
-          <Text mt={"0.5rem"} fontFamily="sans-serif">
-            IP:
-          </Text>
-          <Input fontFamily="sans-serif" ref={annualRevenue} />
-          <Text mt={"0.5rem"} fontFamily="sans-serif">
-            LICENSE:
-          </Text>
-          <Input fontFamily="sans-serif" ref={pinCode} />
-        </Box>
-        <Button
-          fontFamily="sans-serif"
-          mt={"1rem"}
-          mb={"1rem"}
-          onClick={submitForm}
-          color={"white"}
-          bg="green.300" // Light green background
-          boxShadow="0 4px 8px rgba(0, 255, 0, 0.2)" // Light green box shadow
-          _hover={{
-            bg: "green.400", // Darker green on hover
-            boxShadow: "0 6px 12px rgba(0, 255, 0, 0.3)", // Enhanced shadow on hover
-          }}
-        >
-          Submit
-        </Button>
+        <Box
+  bg="white"
+  p="20px"
+  borderRadius="12px"
+  boxShadow="0 4px 12px rgba(0,0,0,0.08)"
+  mt="1rem"
+>
+
+  <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+    First Name:
+  </Text>
+  <Input
+    ref={name}
+    fontFamily="sans-serif"
+    bg="gray.50"
+    borderColor="gray.300"
+    _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+  />
+
+  <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+    Last Name:
+  </Text>
+  <Input
+    ref={mobile}
+    fontFamily="sans-serif"
+    bg="gray.50"
+    borderColor="gray.300"
+    _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+  />
+
+  <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+    Zipcode:
+  </Text>
+  <Input
+    ref={jobFunctional}
+    fontFamily="sans-serif"
+    bg="gray.50"
+    borderColor="gray.300"
+    _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+  />
+
+  <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+    Email:
+  </Text>
+  <Input
+    ref={address}
+    fontFamily="sans-serif"
+    bg="gray.50"
+    borderColor="gray.300"
+    _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+  />
+
+  <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+    IP:
+  </Text>
+  <Input
+    ref={annualRevenue}
+    fontFamily="sans-serif"
+    bg="gray.50"
+    borderColor="gray.300"
+    _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+  />
+
+  <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+    LICENSE:
+  </Text>
+  <Input
+    ref={pinCode}
+    fontFamily="sans-serif"
+    bg="gray.50"
+    borderColor="gray.300"
+    _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+  />
+
+  <Button
+    fontFamily="sans-serif"
+    mt="1.5rem"
+    w="100%"
+    onClick={submitForm}
+    color="white"
+    bg="green.400"
+    fontWeight="600"
+    py="12px"
+    borderRadius="8px"
+    boxShadow="0 4px 10px rgba(0, 128, 0, 0.3)"
+    _hover={{
+      bg: "green.500",
+      boxShadow: "0 6px 14px rgba(0, 128, 0, 0.4)",
+    }}
+  >
+    Submit
+  </Button>
+
+</Box>
+
+       
       </Box>
     </>
   );

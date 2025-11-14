@@ -1994,7 +1994,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               Quality of End service. Following Cycle for accuracy will be
               followed. cut off - 43 (in total) below 90% @42/- INR perform. if
               below cut off or id is terminated then the client is supposed to
-              clear the Registration Amount (6700/-) to the company.
+              clear the Registration Amount (5900/-) to the company.
               <br />
               <br />
               2.4 The Q.C. Department will Check the forms Randomly by the
@@ -2306,10 +2306,8 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               padding={["1rem", "3rem"]}
             >
               Name :Alfabet service <br />
-              Email : helplineservicewww27@gmail.com <br />
-              Adress:Mara Rani Apartment office 189 Janganana Bhawan, First and
-              Second Floor, Plot No. 2B, Madhya Marg, Sector-19A Punjab
-              Chandigarh, 160019
+              Email :servicealfabit79@gmail.com<br />
+              Address ·  Mara Rani Apartment office 189 Janganana Bhawan, First and Second Floor, Plot No. 2B, Madhya Marg, Sector-19A Punjab Chandigarh, 160019. ·
             </Text>
           </Box>
           <Text
@@ -2346,7 +2344,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
                 </Text>
               </FormControl>
             </Box>
-            <Box marginTop={["3rem", "-5rem"]} marginLeft={["0rem", "9rem"]}>
+            <Box marginTop={["3rem", "-5rem"]} marginLeft={["0rem", "10rem"]}>
               <Image src={LOGO} alt="Description of the image" />
             </Box>
           </Box>
