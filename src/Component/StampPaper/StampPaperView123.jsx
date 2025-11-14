@@ -2384,7 +2384,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
             </Table>
           </Box> */}
           <Box display="flex" justifyContent="center" mt="1rem">
-            <Box ml="2rem" w={["255%", "105%"]} h={["0%", "20%"]} mr="1rem">
+            <Box ml="0rem" w={["255%", "105%"]} h={["0%", "20%"]} mr="30rem">
               <Image src={stamplogo} alt="Stamp" />
             </Box>
             <Box display="flex" flexDirection="row">
