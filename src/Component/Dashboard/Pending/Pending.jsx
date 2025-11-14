@@ -268,7 +268,7 @@ function Pending() {
   ) : (
     <>
       <Center mt={["2rem", "1rem"]}>
-        <Box width={{ base: "100vw", md: "90vw" }} overflowX="auto" p={4}>
+        <Box width={{ base: "100vw", sm: "95vw", md: "90vw", lg: "85vw", xl: "80vw" }} overflowX="auto" p={4}>
           <Center mb={4}>
             <Text fontSize="2xl" fontWeight={"800"} color="red">
               Todays Registrations

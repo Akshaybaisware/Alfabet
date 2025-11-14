@@ -18,7 +18,7 @@ import {
 } from "@chakra-ui/react";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 // import Dataentry from "../../Images/logo.png";
-import Dataentry from "../../Images/logo.svg";
+import alphabetserviceslogo from "../../Images/alfabetservicelogo.png";
 import { useState } from "react";
 import axios from "axios";
 const apiUrl = import.meta.env.VITE_APP_API_URL;
@@ -88,22 +88,24 @@ export default function Navbar() {
       justifyContent="space-between"
       // alignItems="center"
       paddingX={{ base: "3", md: "8" }} // Add padding on small screens and larger screens
-      paddingY="4"
-      bg={"rgb(77, 26, 165)"}
+      paddingY="1"
+   bg="linear-gradient(to right, #000080 0%, #1e3a8a 50%, #3b82f6 100%)"
+
       // bg={"#0F0623"}
     >
       <Box
-        mt={"1rem"}
+        
         display="flex"
         alignItems="center"
         marginBottom={{ base: "4", md: "0" }}
       >
-        {/* <Image
+        <Image
           marginLeft={{ base: "0", md: "0rem" }}
           boxSize={{ base: "90px", md: "150px" }}
-          src={Dataentry}
+          src={alphabetserviceslogo}
 
-        /> */}
+          alt="Alfabet Services Logo"
+        />
         {/* <Heading
           fontSize={{ base: "2xl", md: "5xl" }}
           marginLeft={{ base: "1rem", md: "10rem" }}
@@ -113,12 +115,8 @@ export default function Navbar() {
         <Heading
           color={"white"}
           fontSize={{ base: "2xl", md: "5xl" }}
-          marginLeft={{ base: "1rem", md: "10rem" }}
-          style={{
-            boxShadow:
-              "0 8px 16px rgba(128, 0, 128, 0.1), 0 10px 3px rgba(128, 0, 128, 0.08)",
-            //boxShadow: "0 8px 16px rgba(128, 0, 128, 0.1), 20px 10px 3px rgba(128, 0, 128, 0.08)"
-          }}
+          marginLeft={{ base: "1rem",  }}
+
         >
           Alfabet Service
         </Heading>
