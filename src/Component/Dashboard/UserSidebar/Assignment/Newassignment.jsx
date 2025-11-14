@@ -210,6 +210,7 @@ function ContentValidationfrom() {
         pinCode.current.value = "";
         annualRevenue.current.value = "";
         refreshAssignment();
+        getUserdetails();
         navigate("/newassignment");
       }
     } catch (error) {
@@ -263,16 +264,27 @@ function ContentValidationfrom() {
             <Text>Go to page directly:</Text>
             <Select
               value={currentPage}
+              // value={currentpageshowinginui}
               onChange={handlePageChange}
               width="50px"
               color="ornage"
               placeholder="Select Page"
             >
-              {Array.from({ length: apidata?.length }, (_, index) => (
+              {/* {Array.from({ length: apidata?.length }, (_, index) => (
                 <option key={index + 1} value={index + 1}>
                   {index + 1}
                 </option>
-              ))}
+              ))} */}
+              {console.log(apidata, "apidata assignments")}
+              {apidata && apidata.length > 0 && (
+                <>
+                  {Array.from({ length: apidata.length }, (_, index) => (
+                    <option key={index + 1} value={index + 1}>
+                      {index + 1}
+                    </option>
+                  ))}
+                </>
+              )}
             </Select>
           </Center>
         </Box>
@@ -288,11 +300,25 @@ function ContentValidationfrom() {
         fontFamily="'Dancing Script', cursive"
         className="content"
       >
+        {/* address : "3344 Walnut Street" annualRevenue : "$408.0 million"
+        cleanCode : "MKZFJQB2DUYAGJ" jobFunctional : "Marketing Manager" name :
+        "Hannah Evans" phone : "555-5555" pinCode : 98765 updatedAt :
+        "2025-10-25T16:54:09.605Z" userId : "user65" __v : 0 _id :
+        "66154b35465e50b6a1744709 */}
+        {console.log(apidata, "apidata")}
         <Box mt={"1rem"} border={"1px solid #33ffad"}>
           <Center fontWeight={"700"} width={"100%"} fontSize={"1.3rem"}>
-            {apidata?.[randomIndex]?.firstname}{" "}
-            {apidata?.[randomIndex]?.lastname} {apidata?.[randomIndex]?.zipcode}{" "}
+            {apidata && apidata.length > 0 && apidata?.[randomIndex]?.firstname}{" "}
+            {apidata?.[randomIndex]?.lastname}
             {/* {apidata?.[randomIndex]?.email} */}
+          </Center>
+          <Center
+            fontWeight={"700"}
+            mt={"0.5rem"}
+            width={"100%"}
+            fontSize={"1.3rem"}
+          >
+            {apidata?.[randomIndex]?.zipcode}{" "}
           </Center>
           <Center fontWeight={"700"} width={"100%"} fontSize={"1.3rem"}>
             {apidata?.[randomIndex]?.email}
