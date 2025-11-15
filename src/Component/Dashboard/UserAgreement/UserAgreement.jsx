@@ -169,7 +169,7 @@ const UserAgreemen = () => {
         alert("Deleted successfully!");
         fetchData();
       } else {
-        console.error("Error deleting user:", await response.text());
+        console.error("Error deleting user:", await response.json());
         // Handle API errors appropriately (e.g., display error message)
       }
     } catch (error) {

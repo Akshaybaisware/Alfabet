@@ -9,7 +9,7 @@ import {
   Stack,
   Center,
 } from "@chakra-ui/react";
-import stampImage from "../../Images/jodhpurnoc.jpg"; // Adjust the image path accordingly
+import stampImage from "../../Images/jodhpurnoc.png"; // Adjust the image path accordingly
 import nocstamp from "../../Images/nocsignature.png";
 import advocatestamp from "../../Images/advocatestamp.png";
 import axios from "axios";
