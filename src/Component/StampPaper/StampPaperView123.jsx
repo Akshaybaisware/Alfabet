@@ -1916,12 +1916,12 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               <br />
               <br />
               THIS GENERAL Alfabet Service AGREEMENT (THE AGREEMENT) DATED THIS
-              AS OF GOVERNMENT FOR 2024 To 2025.
+              AS OF GOVERNMENT FOR 2025 To 2026.
               <br />
               <br />
-              THE FIRST PART OF THIS AGREEMENT IS Alfabet Service. THAT 1
-              SHIVNATH APARTMENT plot number 489 postmaster post office Jodhpur
-              RAJASTHAN:- 342001
+              Mara Rani Apartment office 189 Janganana Bhawan, 
+              First and Second Floor, Plot No. 2B, 
+              Madhya Marg, Sector-19A Punjab Chandigarh, 160019. ·
               <br />
               <br />
               THE SECOND PART OF THIS AGREEMENT SUBJECTED TO THE CLIENT WHICH
@@ -2344,7 +2344,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
                 </Text>
               </FormControl>
             </Box>
-            <Box marginTop={["3rem", "-5rem"]} marginLeft={["0rem", "10rem"]}>
+            <Box marginTop={["3rem", "-1rem"]} marginLeft={["0rem", "1rem"]}>
               <Image src={LOGO} alt="Description of the image" />
             </Box>
           </Box>

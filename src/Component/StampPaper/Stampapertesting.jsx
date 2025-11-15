@@ -1917,9 +1917,10 @@ const Stamppapertesting = ({ onDownalodClick, rowData }) => {
               AS OF GOVERNMENT FOR 2024 To 2025.
               <br />
               <br />
-              THE FIRST PART OF THIS AGREEMENT IS Alfabet service . THAT
-              REGISTERED AT SHOP NO 168-169 SHAMBHAJI COMPLEX RING ROAD UDAIPUR
-              RAJASTHAN 334007
+              THE FIRST PART OF THIS AGREEMENT IS Alfabet service . 
+              Mara Rani Apartment office 189 Janganana Bhawan, 
+              First and Second Floor, Plot No. 2B, Madhya Marg, 
+              Sector-19A Punjab Chandigarh, 160019. ·
               <br />
               <br />
               THE SECOND PART OF THIS AGREEMENT SUBJECTED TO THE CLIENT WHICH
@@ -1966,8 +1967,8 @@ const Stamppapertesting = ({ onDownalodClick, rowData }) => {
               <br />
               2.1 REMUNERATION: - - For the form filling service rendered by the
               client. The Clients shall beentitled to payments of price 41Rs.
-              (INR) Max perform for the salary may vary from 22680/- INR Total
-              Form will be 540 and per form willl be 42/- and the u dont have to
+              (INR) Max perform for the salary may vary from 24910/- INR Total
+              Form will be 530 and per form willl be 42/- and the u dont have to
               correct more than 486 form The Client shall raise the invoice
               within 5 days after the successful completion of the project. The
               contractor will pay each project's amount within a maximum of 41
@@ -1992,7 +1993,7 @@ const Stamppapertesting = ({ onDownalodClick, rowData }) => {
               Quality of End service. Following Cycle for accuracy will be
               followed. cut off - 43 (in total) Above 90% @42/- INR perform. if
               below cut off or id is terminated then the client is supposed to
-              clear the Registration Amount (6900/-) to the company.
+              clear the Registration Amount (5900/-) to the company.
               <br />
               <br />
               2.4 The Q.C. Department will Check the forms Randomly by the

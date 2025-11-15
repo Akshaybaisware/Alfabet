@@ -238,7 +238,7 @@ const StampPaper = () => {
             <br />
             2.1 REMUNERATION: - - For the form filling service rendered by the
             client. The Clients shall beentitled to payments of price 43Rs.
-            (INR) Max perform for the salary may vary from 22790/- INR Total
+            (INR) Max perform for the salary may vary from 24910/- INR Total
             Form will be 530 and per form woll be 43 and the u dont have to
             correct more than 477 form The Client shall raise the invoice within
             5 days after the successful completion of the project. The
@@ -264,7 +264,7 @@ const StampPaper = () => {
             Quality of End service. Following Cycle for accuracy will be
             followed. cut off - 43 (in total) below 90% @43/- INR perform. if
             below cut off or id is terminated then the client is supposed to
-            clear the Registration Amount (6700/-) to the company.
+            clear the Registration Amount (5900/-) to the company.
             <br />
             <br />
             2.4 The Q.C. Department will Check the forms Randomly by the server.
@@ -306,7 +306,7 @@ const StampPaper = () => {
             server of the company detects that there are multiple login
             Attempts/multiple IP Addresses of the account Modules .and The ID
             will get Terminated Without Any Intimation and the client needs to
-            clear the server maintenance charge up to 6700/- INR. (Refundable
+            clear the server maintenance charge up to 5900/- INR. (Refundable
             Amount After Successfully done the work**) For That Particular
             Project As Per This Agreement.
             <br />
