@@ -480,7 +480,8 @@ const EditClientComponent = () => {
               <Input
                 name="startDate"
                 type="date"
-                value={userData.startDate.slice(0, 10)}
+               value={userData?.startDate ? userData.startDate.slice(0, 10) : ""}
+
                 onChange={(event) => {
                   // Get the input value from the event
                   const inputValue = event.target.value;
@@ -504,7 +505,7 @@ const EditClientComponent = () => {
               <Input
                 name="endDate"
                 type="date"
-                value={userData.endDate.slice(0, 10)}
+                value={userData?.endDate?userData.endDate.slice(0, 10):""}
                 onChange={handleChange}
               />
             </FormControl>
