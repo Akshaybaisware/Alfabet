@@ -101,7 +101,7 @@ export default function Navbar() {
       >
         <Image
           marginLeft={{ base: "0", md: "0rem" }}
-          boxSize={{ base: "90px", md: "150px" }}
+          boxSize={{ base: "50px", md: "150px" }}
           src={alphabetserviceslogo}
 
           alt="Alfabet Services Logo"
@@ -114,7 +114,7 @@ export default function Navbar() {
         </Heading> */}
         <Heading
           color={"white"}
-          fontSize={{ base: "2xl", md: "5xl" }}
+          fontSize={{ base: "2xl", md: "4xl" }}
           marginLeft={{ base: "1rem",  }}
 
         >
