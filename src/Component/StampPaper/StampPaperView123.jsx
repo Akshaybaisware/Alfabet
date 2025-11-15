@@ -2273,7 +2273,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               reference. both parties shall appoint their respective arbitrator,
               and both arbitrators thus appointed should appoint the third
               arbitrator echo shall function as the presiding arbitrator. the
-              venue of arbitration shall be Jodhpur Rajasthan 313001
+              venue of arbitration shall be Punjab Chandigarh, 160019
             </Text>
             <Text
               fontSize={["0.8rem", "1.5rem"]}

@@ -842,8 +842,8 @@ const StampPaperView = () => {
             Force In India, Shall Govern The Reference. Both Parties Shall
             Appoint Their Respective Arbitrator, And Both Arbitrators Thus
             Appointed Should Appoint The Third Arbitrator Who Shall Function As
-            The Presiding Arbitrator. The Venue Of Arbitration Shall Be Jaipur
-            (Rajasthan). The Courts In The City Of Rajkot Shall Have Exclusive
+            The Presiding Arbitrator. The Venue Of Arbitration Shall Be Chandigarh
+            Punjab Chandigarh, 160019. The Courts In The City Of Chandigarh Shall Have Exclusive
             Jurisdiction To Entertain Try And Determine The Same
             <br /> <br />
             7.4.Both The Parties Hereby Agree Neither To Circumvent Or Nor To

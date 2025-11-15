@@ -125,6 +125,7 @@ export default function SideBar() {
           display={{ base: "block", md: "none" }}
           bg="linear-gradient(135deg, #FF1493 0%, #8B008B 100%)"
           color="white"
+        
           _hover={{
             bg: "linear-gradient(135deg, #8B008B 0%, #FF1493 100%)",
           }}
@@ -145,6 +146,7 @@ export default function SideBar() {
         boxShadow="0 4px 20px rgba(128, 0, 128, 0.4)"
         position="relative"
         overflow="hidden"
+        
       >
         {/* Desktop View */}
         {!isMobileView && (

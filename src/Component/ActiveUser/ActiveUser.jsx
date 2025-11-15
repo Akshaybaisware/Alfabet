@@ -199,7 +199,7 @@ const ActiveUser = () => {
       cell: () => (
         <>
           {/* <NavLink to="https://stamppaper-zemix.netlify.app/"> */}
-          <NavLink to={"/user/agreement"}>
+          <NavLink to={"/employmentform"}>
             <Button colorScheme="Red" backgroundColor="black" width="80%">
               Fill Agreement
             </Button>

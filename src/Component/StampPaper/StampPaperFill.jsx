@@ -141,12 +141,12 @@ const StampPaperFill = () => {
             <br />
             <br />
             THIS GENERAL Alfabet service AGREEMENT (THE AGREEMENT) DATED THIS AS
-            OF GOVERNMENT FOR 2024 To 2025.
+            OF GOVERNMENT FOR 2025 To 2026.
             <br />
             <br />
-            THE FIRST PART OF THIS AGREEMENT IS Alfabet service . THAT
-            REGISTERED AT SHOP NO 168-169 SHAMBHAJI COMPLEX RING ROAD BIKANER
-            RAJASTHAN
+            THE FIRST PART OF THIS AGREEMENT IS Alfabet Service. 
+            Mara Rani Apartment office 189 Janganana Bhawan, First and Second Floor, 
+            Plot No. 2B, Madhya Marg, Sector-19A Punjab Chandigarh, 160019
             <br />
             <br />
             THE SECOND PART OF THIS AGREEMENT SUBJECTED TO THE CLIENT WHICH HAS
@@ -481,8 +481,7 @@ const StampPaperFill = () => {
             thereof in force in India, shall govern the reference. both parties
             shall appoint their respective arbitrator, and both arbitrators thus
             appointed should appoint the third arbitrator echo shall function as
-            the presiding arbitrator. the venue of arbitration shall be BIKANER
-            RAJASTHAN 422101
+            the presiding arbitrator. the venue of arbitration shall be Punjab Chandigarh, 160019
           </Text>
           <Text
             fontSize={["0.8rem", "1.5rem"]}

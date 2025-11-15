@@ -121,7 +121,7 @@ function Notice() {
         <br />
         यह सूचना आपके और{" "}
         <Text as="span" color="red.500">
-          ट्रिकलाइन एंटरप्राइजेज
+          अल्फ़ाबेट सर्विस
         </Text>{" "}
         के बीच अनुबंध उल्लंघन के संबंध में है। [अनुबंध तिथि] को सहमति के अनुसार
         यह अपेक्षित था कि [उल्लंघित शर्तों का उल्लेख करें, जैसे वस्तुओं की
@@ -143,7 +143,7 @@ function Notice() {
         <Text fontSize={"0.9rem"}>Notice Cancellation Charges:-</Text>
         <Text fontSize={"0.8rem"} color="red.500" mb="20px">
           If this notice is canceled before the legal proceedings are initiated,
-          a cancellation fee of ₹22,479 will be applied. Please ensure that all
+          a cancellation fee of ₹24,910 will be applied. Please ensure that all
           actions are completed within the given time frame to avoid additional
           charges.
         </Text>
