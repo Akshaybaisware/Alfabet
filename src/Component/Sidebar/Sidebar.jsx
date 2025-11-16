@@ -141,7 +141,7 @@ export default function SideBar() {
       )}
 
       <List
-        p="10px"
+       
         bg="linear-gradient(135deg, #8B008B 0%, #4B0082 100%)"
         boxShadow="0 4px 20px rgba(128, 0, 128, 0.4)"
         position="relative"
