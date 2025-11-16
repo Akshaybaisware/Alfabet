@@ -381,7 +381,7 @@ const StampPaper = () => {
             data entry operators engaged by the client, violence or political
             turbulence or for any other reasons of a similar nature, which is
             beyond the control of the client. If you want to terminate your
-            agreement after your first work, you need to pay 6700*11 times the
+            agreement after your first work, you need to pay 5900*11 times the
             agreement amount as per company policies.
             <br />
           </Text>

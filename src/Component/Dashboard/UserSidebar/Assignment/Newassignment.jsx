@@ -318,208 +318,163 @@ function ContentValidationfrom() {
         "2025-10-25T16:54:09.605Z" userId : "user65" __v : 0 _id :
         "66154b35465e50b6a1744709 */}
         {console.log(apidata, "apidata")}
-        <Box mt={"1rem"} border={"1px solid #33ffad"} p="10px" bg="white" borderRadius="8px">
+        <Box mt={"1rem"} border={"1px solid #33ffad"}>
           <Center fontWeight={"700"} width={"100%"} fontSize={"1.3rem"}>
             {apidata && apidata.length > 0 && apidata?.[randomIndex]?.firstname}{" "}
             {apidata?.[randomIndex]?.lastname}
+            {/* {apidata?.[randomIndex]?.email} */}
           </Center>
-          <Center fontWeight={"700"} width={"100%"} fontSize={"1rem"} color="gray.600">
+          <Center
+            fontWeight={"700"}
+            mt={"0.5rem"}
+            width={"100%"}
+            fontSize={"1.3rem"}
+          >
+            {apidata?.[randomIndex]?.zipcode}{" "}
+          </Center>
+          <Center fontWeight={"700"} width={"100%"} fontSize={"1.3rem"}>
             {apidata?.[randomIndex]?.email}
           </Center>
-          <Center fontWeight={"700"} width={"100%"} fontSize={"1rem"}>
-            {apidata?.[randomIndex]?.phonenumber}
-          </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"0.9rem"} color="gray.700" mt="5px">
+          <Box
+            fontWeight={"700"}
+            mt={"0.5rem"}
+            width={"100%"}
+            fontSize={"1.3rem"}
+          >
+            <Center fontWeight={"700"}>
+              {/* {apidata?.[randomIndex]?.phonenumber} */}
+
+              {/* {apidata?.[randomIndex]?.zipcode}{" "} */}
+              {apidata?.[randomIndex]?.ip}
+            </Center>
+          </Box>
+          <Center
+            fontWeight="700"
+            mt={"0.5rem"}
+            width={"100%"}
+            fontSize={"1rem"}
+          >
             {apidata?.[randomIndex]?.licencenumber}
           </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"1rem"} mt="5px">
-            {apidata?.[randomIndex]?.bankname}
-          </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"1rem"}>
-            {apidata?.[randomIndex]?.accountnumber}
-          </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"1rem"}>
-            {apidata?.[randomIndex]?.ip}
-          </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"1rem"} mt="5px">
-            {apidata?.[randomIndex]?.address}
-          </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"1rem"}>
-            {apidata?.[randomIndex]?.city}
-          </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"1rem"}>
-            {apidata?.[randomIndex]?.state}
-          </Center>
-          <Center fontWeight="700" width={"100%"} fontSize={"1rem"}>
-            {apidata?.[randomIndex]?.zipcode}
-          </Center>
         </Box>
-
         <Text
           fontWeight={"700"}
           fontFamily="sans-serif"
           mt={"1rem"}
           mb={"1rem"}
-          bg="green.50"
-          color="green.800"
-          boxShadow="0 4px 8px rgba(0, 128, 0, 0.3)"
-          borderRadius="8px"
-          p="10px"
-          textAlign="center"
+          bg="green.50" // Light green background
+          color="green.800" // Dark green text color
+          boxShadow="0 4px 8px rgba(0, 128, 0, 0.3)" // Green box shadow
+          borderRadius="8px" // Optional: adds rounded corners
+          p="10px" // Optional: adds padding inside the box
         >
-          Current Work Load - Form 1
+          Start Your Assignment
         </Text>
+        <Box
+          bg="white"
+          p="20px"
+          borderRadius="12px"
+          boxShadow="0 4px 12px rgba(0,0,0,0.08)"
+          mt="1rem"
+        >
+          <Grid templateColumns="repeat(2, 1fr)" gap={4}>
+            <GridItem>
+              <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+                First Name:
+              </Text>
+              <Input
+                ref={name}
+                fontFamily="sans-serif"
+                bg="gray.50"
+                borderColor="gray.300"
+                _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+              />
+            </GridItem>
 
-        {/* Form Section */}
-        <Box bg="white" p="15px" borderRadius="8px" boxShadow="0 2px 8px rgba(0,0,0,0.1)">
-          
-          {/* First Row - Labels */}
-          <Grid templateColumns="1fr 1fr 1fr 1fr" gap="10px" mb="8px" fontFamily="sans-serif" fontWeight="600">
-            <Text>First Name</Text>
-            <Text>Last Name</Text>
-            <Text>Email</Text>
-            <Text>Phone No</Text>
-          </Grid>
+            <GridItem>
+              <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+                Last Name:
+              </Text>
+              <Input
+                ref={mobile}
+                fontFamily="sans-serif"
+                bg="gray.50"
+                borderColor="gray.300"
+                _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+              />
+            </GridItem>
 
-          {/* First Row - Inputs */}
-          <Grid templateColumns="1fr 1fr 1fr 1fr" gap="10px" mb="15px">
-            <Input
-              ref={name}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              ref={mobile}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              ref={address}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              ref={annualRevenue}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-          </Grid>
+            <GridItem>
+              <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+                Zipcode:
+              </Text>
+              <Input
+                ref={jobFunctional}
+                fontFamily="sans-serif"
+                bg="gray.50"
+                borderColor="gray.300"
+                _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+              />
+            </GridItem>
 
-          {/* Second Row - Labels */}
-          <Grid templateColumns="1fr 1fr 1fr 1fr" gap="10px" mb="8px" fontFamily="sans-serif" fontWeight="600">
-            <Text>Licence No</Text>
-            <Text>Bank Name</Text>
-            <Text>Account No</Text>
-            <Text>IP</Text>
-          </Grid>
+            <GridItem>
+              <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
+                Email:
+              </Text>
+              <Input
+                ref={address}
+                fontFamily="sans-serif"
+                bg="gray.50"
+                borderColor="gray.300"
+                _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+              />
+            </GridItem>
+    </Grid>
+            <Box>
+              <Text fontWeight="600" mt="10px" fontFamily="sans-serif" textAlign="center" >
+                IP:
+              </Text>
+              <Input
+                ref={annualRevenue}
+                fontFamily="sans-serif"
+                bg="gray.50"
+                borderColor="gray.300"
+                _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+              />
+            </Box>
+      
 
-          {/* Second Row - Inputs */}
-          <Grid templateColumns="1fr 1fr 1fr 1fr" gap="10px" mb="15px">
+          <Box mt={4}>
+            <Text fontWeight="600" mt="10px" fontFamily="sans-serif" textAlign="center">
+              LICENSE:
+            </Text>
             <Input
               ref={pinCode}
               fontFamily="sans-serif"
               bg="gray.50"
               borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
+              _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
             />
-            <Input
-              ref={bankNameRef}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              ref={accountNoRef}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              ref={jobFunctional}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-          </Grid>
+          </Box>
 
-          {/* Third Row - Labels */}
-          <Grid templateColumns="1fr 1fr 1fr 1fr" gap="10px" mb="8px" fontFamily="sans-serif" fontWeight="600">
-            <Text>Address</Text>
-            <Text>City</Text>
-            <Text>State</Text>
-            <Text>Zipcode</Text>
-          </Grid>
-
-          {/* Third Row - Inputs */}
-          <Grid templateColumns="1fr 1fr 1fr 1fr" gap="10px" mb="20px">
-            <Input
-              ref={cityRef}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              ref={stateRef}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              ref={zipcodeNewRef}
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-            <Input
-              fontFamily="sans-serif"
-              bg="gray.50"
-              borderColor="gray.300"
-              _focus={{ borderColor: "green.400", bg: "white" }}
-            />
-          </Grid>
-
-          {/* Buttons */}
-          <Flex gap="15px" justifyContent="center">
-            <Button
-              fontFamily="sans-serif"
-              onClick={submitForm}
-              color="white"
-              bg="green.500"
-              fontWeight="600"
-              px="30px"
-              py="10px"
-              borderRadius="6px"
-              _hover={{ bg: "green.600" }}
-            >
-              Submit
-            </Button>
-            <Button
-              fontFamily="sans-serif"
-              color="white"
-              bg="blue.500"
-              fontWeight="600"
-              px="30px"
-              py="10px"
-              borderRadius="6px"
-              _hover={{ bg: "blue.600" }}
-            >
-              Save
-            </Button>
-          </Flex>
+          <Button
+            fontFamily="sans-serif"
+            mt="1.5rem"
+            w="100%"
+            onClick={submitForm}
+            color="white"
+            bg="green.400"
+            fontWeight="600"
+            py="12px"
+            borderRadius="8px"
+            boxShadow="0 4px 10px rgba(0, 128, 0, 0.3)"
+            _hover={{
+              bg: "green.500",
+              boxShadow: "0 6px 14px rgba(0, 128, 0, 0.4)",
+            }}
+          >
+            Submit
+          </Button>
         </Box>
       </Box>
     </>
