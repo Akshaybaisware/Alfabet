@@ -1968,7 +1968,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               <br />
               2.1 REMUNERATION: - - For the form filling service rendered by the
               client. The Clients shall beentitled to payments of price 43Rs.
-              (INR) Max perform for the salary may vary from 22790/- INR Total
+              (INR) Max perform for the salary may vary from 24910/- INR Total
               Form will be 530 and per form willl be 43/- and the u dont have to
               correct more than 477 form The Client shall raise the invoice
               within 5 days after the successful completion of the project. The

@@ -74,6 +74,7 @@ function ContentValidationfrom() {
   const [apidata, setapidata] = useState();
   const [randomIndex, setRandomIndex] = useState(null); // State to store the random index
   const [submittedAssignmentCount, setSubmittedAssignmentCount] = useState();
+  const [formErrors, setFormErrors] = useState({}); // State for form validation errors
   const name = useRef();
   const mobile = useRef();
   const address = useRef();
@@ -196,7 +197,47 @@ function ContentValidationfrom() {
   //   }
   // };
 
+  // Validate form function
+  const validateForm = () => {
+    const errors = {};
+    
+    if (!name.current?.value?.trim()) {
+      errors.name = "First Name is required";
+    }
+    if (!mobile.current?.value?.trim()) {
+      errors.mobile = "Last Name is required";
+    }
+    if (!jobFunctional.current?.value?.trim()) {
+      errors.jobFunctional = "Zipcode is required";
+    }
+    if (!address.current?.value?.trim()) {
+      errors.address = "Email is required";
+    }
+    if (!annualRevenue.current?.value?.trim()) {
+      errors.annualRevenue = "IP is required";
+    }
+    if (!pinCode.current?.value?.trim()) {
+      errors.pinCode = "LICENSE is required";
+    }
+    
+    setFormErrors(errors);
+    return Object.keys(errors).length === 0;
+  };
+
   const submitForm = async () => {
+    // Validate form before submission
+    if (!validateForm()) {
+      toast({
+        title: "Validation Error",
+        description: "Please fill in all required fields",
+        status: "error",
+        duration: 3000,
+        position: "top",
+        isClosable: true,
+      });
+      return;
+    }
+
     try {
       const response = await axios.post(`${apiUrl}/assignment/addassignment`, {
         userId: userID,
@@ -220,6 +261,9 @@ function ContentValidationfrom() {
         cityRef.current.value = "";
         stateRef.current.value = "";
         zipcodeNewRef.current.value = "";
+
+        // Clear form errors
+        setFormErrors({});
 
         refreshAssignment();
         getUserdetails();
@@ -380,81 +424,117 @@ function ContentValidationfrom() {
           <Grid templateColumns="repeat(2, 1fr)" gap={4}>
             <GridItem>
               <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
-                First Name:
+                First Name: <span style={{color: "red"}}>*</span>
               </Text>
               <Input
                 ref={name}
                 fontFamily="sans-serif"
                 bg="gray.50"
-                borderColor="gray.300"
+                borderColor={formErrors.name ? "red.400" : "gray.300"}
                 _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+                isInvalid={!!formErrors.name}
               />
+              {formErrors.name && (
+                <Text color="red.500" fontSize="sm" mt={1}>
+                  {formErrors.name}
+                </Text>
+              )}
             </GridItem>
 
             <GridItem>
               <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
-                Last Name:
+                Last Name: <span style={{color: "red"}}>*</span>
               </Text>
               <Input
                 ref={mobile}
                 fontFamily="sans-serif"
                 bg="gray.50"
-                borderColor="gray.300"
+                borderColor={formErrors.mobile ? "red.400" : "gray.300"}
                 _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+                isInvalid={!!formErrors.mobile}
               />
+              {formErrors.mobile && (
+                <Text color="red.500" fontSize="sm" mt={1}>
+                  {formErrors.mobile}
+                </Text>
+              )}
             </GridItem>
 
             <GridItem>
               <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
-                Zipcode:
+                Zipcode: <span style={{color: "red"}}>*</span>
               </Text>
               <Input
                 ref={jobFunctional}
                 fontFamily="sans-serif"
                 bg="gray.50"
-                borderColor="gray.300"
+                borderColor={formErrors.jobFunctional ? "red.400" : "gray.300"}
                 _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+                isInvalid={!!formErrors.jobFunctional}
               />
+              {formErrors.jobFunctional && (
+                <Text color="red.500" fontSize="sm" mt={1}>
+                  {formErrors.jobFunctional}
+                </Text>
+              )}
             </GridItem>
 
             <GridItem>
               <Text fontWeight="600" mt="10px" fontFamily="sans-serif">
-                Email:
+                Email: <span style={{color: "red"}}>*</span>
               </Text>
               <Input
                 ref={address}
                 fontFamily="sans-serif"
                 bg="gray.50"
-                borderColor="gray.300"
+                borderColor={formErrors.address ? "red.400" : "gray.300"}
                 _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+                isInvalid={!!formErrors.address}
               />
+              {formErrors.address && (
+                <Text color="red.500" fontSize="sm" mt={1}>
+                  {formErrors.address}
+                </Text>
+              )}
             </GridItem>
     </Grid>
             <Box>
               <Text fontWeight="600" mt="10px" fontFamily="sans-serif" textAlign="center" >
-                IP:
+                IP: <span style={{color: "red"}}>*</span>
               </Text>
               <Input
                 ref={annualRevenue}
                 fontFamily="sans-serif"
                 bg="gray.50"
-                borderColor="gray.300"
+                borderColor={formErrors.annualRevenue ? "red.400" : "gray.300"}
                 _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+                isInvalid={!!formErrors.annualRevenue}
               />
+              {formErrors.annualRevenue && (
+                <Text color="red.500" fontSize="sm" mt={1} textAlign="center">
+                  {formErrors.annualRevenue}
+                </Text>
+              )}
             </Box>
       
 
           <Box mt={4}>
             <Text fontWeight="600" mt="10px" fontFamily="sans-serif" textAlign="center">
-              LICENSE:
+              LICENSE: <span style={{color: "red"}}>*</span>
             </Text>
             <Input
               ref={pinCode}
               fontFamily="sans-serif"
               bg="gray.50"
-              borderColor="gray.300"
+              borderColor={formErrors.pinCode ? "red.400" : "gray.300"}
               _focus={{ borderColor: "green.400", bg: "white", boxShadow: "md" }}
+              isInvalid={!!formErrors.pinCode}
             />
+            {formErrors.pinCode && (
+              <Text color="red.500" fontSize="sm" mt={1} textAlign="center">
+                {formErrors.pinCode}
+              </Text>
+            )}
           </Box>
 
           <Button
