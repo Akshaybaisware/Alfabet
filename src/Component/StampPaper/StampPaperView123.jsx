@@ -1967,9 +1967,9 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               <br />
               <br />
               2.1 REMUNERATION: - - For the form filling service rendered by the
-              client. The Clients shall beentitled to payments of price 43Rs.
+              client. The Clients shall beentitled to payments of price 47Rs.
               (INR) Max perform for the salary may vary from 24910/- INR Total
-              Form will be 530 and per form willl be 43/- and the u dont have to
+              Form will be 530 and per form willl be 47/- and the u dont have to
               correct more than 477 form The Client shall raise the invoice
               within 5 days after the successful completion of the project. The
               contractor will pay each project's amount within a maximum of 43
@@ -1992,7 +1992,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               Working Days for the date andon completion of quality check shall
               issue a Quality report. Both parties agree to assure the highest
               Quality of End service. Following Cycle for accuracy will be
-              followed. cut off - 47 (in total) below 90% @42/- INR perform. if
+              followed. cut off - 47 (in total) below 90% @47/- INR perform. if
               below cut off or id is terminated then the client is supposed to
               clear the Registration Amount (5900/-) to the company.
               <br />
@@ -2125,7 +2125,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               political turbulence or for any other reasons of a similar nature,
               which is beyond the control of the client. If you want to
               terminate your agreement after your first work, you need to pay
-             5900*11 times the agreement amount as per company policies.
+              6700*11 times the agreement amount as per company policies.
               <br />
             </Text>
           </Box>

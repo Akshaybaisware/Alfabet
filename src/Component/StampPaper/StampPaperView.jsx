@@ -454,12 +454,12 @@ const StampPaperView = () => {
           </Box>
           <Box textAlign="center">
             <Heading fontSize="1.2rem" mb="4">
-              Legal Employment Contract 2024
+              Legal Employment Contract 2025
             </Heading>
 
             <Text fontSize="1rem">
               THIS DIGITAL EMPLOYMENT CONTRACT (this "Agreement") Valid Till
-              Eleven Months From 2024-01-01 BETWEEN:
+              Eleven Months From 2025-01-01 BETWEEN:
             </Text>
 
             <Text>
@@ -529,8 +529,8 @@ const StampPaperView = () => {
           </Heading>
           <Text fontSize="md">
             Scope Of Work: The Employee Will Commence Employment With The
-            Employer On 2024-01-01 (the "Commencement Date") Extending Till
-            2024-11-01 (End Of "Term Date").
+            Employer On 2025-01-01 (the "Commencement Date") Extending Till
+            2025-11-01 (End Of "Term Date").
             <br />
             <br />
             Subject To The Probationary Period And Subject To Termination As
@@ -642,7 +642,7 @@ const StampPaperView = () => {
             3. Conflict of Interest
           </Heading>
           <Text color="red" fontSize="md">
-            3.1. Application Fee(s): The Registration Amount Of 6800/- INR. Will
+            3.1. Application Fee(s): The Registration Amount Of 5900/- INR. Will
             Be Deducted From The Salary If Generated, And If The Salary Is Not
             Generated i.e If The Employee Fails To Complete The Work, Then You
             are required to work for 5 days. If you fail to commence your work

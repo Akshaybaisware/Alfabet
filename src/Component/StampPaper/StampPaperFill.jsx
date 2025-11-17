@@ -191,8 +191,8 @@ const StampPaperFill = () => {
             <br />
             <br />
             2.1 REMUNERATION: - - For the form filling service rendered by the
-            client. The Clients shall beentitled to payments of price 41Rs.
-            (INR) Max perform for the salary may vary from 20910/- INR The
+            client. The Clients shall beentitled to payments of price 47Rs.
+            (INR) Max perform for the salary may vary from 24910/- INR The
             Client shall raise the invoice within 5 days after the successful
             completion of the project. The contractor will pay each project's
             amount within a maximum of 48 HRS, from the date of issue of the
@@ -214,7 +214,7 @@ const StampPaperFill = () => {
             Working Days for the date andon completion of quality check shall
             issue a Quality report. Both parties agree to assure the highest
             Quality of End service. Following Cycle for accuracy will be
-            followed. cut off - 47 (in total) Above 80% @41/- INR perform. if
+            followed. cut off - 47 (in total) Above 80% @47/- INR perform. if
             below cut off or id is terminated then the client is supposed to
             clear the Registration Amount (5900/-) to the company.
             <br />
@@ -237,7 +237,7 @@ const StampPaperFill = () => {
             3. Conflict of interest
             <br />
             <br />
-            3.1 Application Fee(S): The Registration Amount of 6800/- INR. Will
+            3.1 Application Fee(S): The Registration Amount of 5900/- INR. Will
             be deducted from the salary ifgenerated, and if the salary is not
             generated i.e If the client fails to complete the work. then he/she
             is liable to pay the same registration amount on their own. The
@@ -258,7 +258,7 @@ const StampPaperFill = () => {
             server of the company detects that there are multiple login
             Attempts/multiple IP Addresses of the account Modules .and The ID
             will get Terminated Without Any Intimation and the client needs to
-            clear the server maintenance charge up to 6800/- INR. (Refundable
+            clear the server maintenance charge up to 5900/- INR. (Refundable
             Amount After Successfully done the work**) For That Particular
             Project As Per This Agreement.
             <br />
@@ -333,7 +333,7 @@ const StampPaperFill = () => {
             data entry operators engaged by the client, violence or political
             turbulence or for any other reasons of a similar nature, which is
             beyond the control of the client. If you want to terminate your
-            agreement after your first work, you need to pay 6800*11 times the
+            agreement after your first work, you need to pay 5900*11 times the
             agreement amount as per company policies.
             <br />
           </Text>

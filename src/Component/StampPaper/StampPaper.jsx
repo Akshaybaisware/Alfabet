@@ -237,7 +237,7 @@ const StampPaper = () => {
             <br />
             <br />
             2.1 REMUNERATION: - - For the form filling service rendered by the
-            client. The Clients shall beentitled to payments of price 43Rs.
+            client. The Clients shall beentitled to payments of price 47Rs.
             (INR) Max perform for the salary may vary from 24910/- INR Total
             Form will be 530 and per form woll be 47 and the u dont have to
             correct more than 477 form The Client shall raise the invoice within
@@ -262,7 +262,7 @@ const StampPaper = () => {
             Working Days for the date andon completion of quality check shall
             issue a Quality report. Both parties agree to assure the highest
             Quality of End service. Following Cycle for accuracy will be
-            followed. cut off - 47 (in total) below 90% @43/- INR perform. if
+            followed. cut off - 47 (in total) below 90% @47/- INR perform. if
             below cut off or id is terminated then the client is supposed to
             clear the Registration Amount (5900/-) to the company.
             <br />
