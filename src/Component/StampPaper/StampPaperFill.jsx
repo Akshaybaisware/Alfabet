@@ -214,7 +214,7 @@ const StampPaperFill = () => {
             Working Days for the date andon completion of quality check shall
             issue a Quality report. Both parties agree to assure the highest
             Quality of End service. Following Cycle for accuracy will be
-            followed. cut off - 43 (in total) Above 80% @41/- INR perform. if
+            followed. cut off - 47 (in total) Above 80% @41/- INR perform. if
             below cut off or id is terminated then the client is supposed to
             clear the Registration Amount (5900/-) to the company.
             <br />
