@@ -239,7 +239,7 @@ const StampPaper = () => {
             2.1 REMUNERATION: - - For the form filling service rendered by the
             client. The Clients shall beentitled to payments of price 43Rs.
             (INR) Max perform for the salary may vary from 24910/- INR Total
-            Form will be 530 and per form woll be 43 and the u dont have to
+            Form will be 530 and per form woll be 47 and the u dont have to
             correct more than 477 form The Client shall raise the invoice within
             5 days after the successful completion of the project. The
             contractor will pay each project's amount within a maximum of 24
@@ -285,7 +285,7 @@ const StampPaper = () => {
             3. Conflict of interest
             <br />
             <br />
-            3.1 Application Fee(S): The Registration Amount of 6700/- INR. Will
+            3.1 Application Fee(S): The Registration Amount of 5900/- INR. Will
             be deducted from the salary ifgenerated, and if the salary is not
             generated i.e If the client fails to complete the work. then he/she
             is liable to pay the same registration amount on their own. The

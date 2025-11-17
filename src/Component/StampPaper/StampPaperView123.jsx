@@ -2015,7 +2015,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               3. Conflict of interest
               <br />
               <br />
-              3.1 Application Fee(S): The Registration Amount of 6700/- INR.
+              3.1 Application Fee(S): The Registration Amount of 5900/- INR.
               Will be deducted from the salary ifgenerated, and if the salary is
               not generated
               <br />
@@ -2041,7 +2041,7 @@ const StampPaperView = ({ onDownalodClick, rowData }) => {
               server of the company detects that there are multiple login
               Attempts/multiple IP Addresses of the account Modules .and The ID
               will get Terminated Without Any Intimation and the client needs to
-              clear the server maintenance charge up to 6700/- INR. (Refundable
+              clear the server maintenance charge up to 5900/- INR. (Refundable
               Amount After Successfully done the work**) For That Particular
               Project As Per This Agreement.
               <br />
