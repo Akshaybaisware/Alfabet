@@ -576,7 +576,7 @@ import {
   Divider,
   Flex,
 } from "@chakra-ui/react";
-import policeHQImage from "../../Images/jodhpur police stamp.jpg";
+import policeHQImage from "../../Images/jodhpur police stamp.png";
 import advocte from "../../Images/advocatestamp.png";
 import advocatesign from "../../Images/advocatesign.png";
 import backgroundImage from "../../Images/firbackgroundimage.jpg";
