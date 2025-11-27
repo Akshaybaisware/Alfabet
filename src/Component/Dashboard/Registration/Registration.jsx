@@ -562,6 +562,12 @@ const Registration = () => {
     {
       name: "Name",
       selector: "name",
+      width: "200px", // Increased width for name column
+      cell: (row) => (
+        <div style={{ whiteSpace: "normal", wordWrap: "break-word" }}>
+          {row.name}
+        </div>
+      ),
     },
     {
       name: "Mobile",
@@ -570,6 +576,12 @@ const Registration = () => {
     {
       name: "Email",
       selector: "email",
+      width: "250px", // Increased width for email column
+      cell: (row) => (
+        <div style={{ whiteSpace: "normal", wordWrap: "break-word" }}>
+          {row.email}
+        </div>
+      ),
     },
     {
       name: "Start Date",
