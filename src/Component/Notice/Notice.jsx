@@ -111,7 +111,7 @@ function Notice() {
         <Text as="span" color="red.500">
           ₹{userDetails?.novcAmount}/- INR
         </Text>
-        . Failure to comply will result in legal proceedings at the Delhi
+        . Failure to comply will result in legal proceedings at the Chandigarh
         Consumer Court under ICA Section 73 and 74.
       </Text>
 
@@ -171,7 +171,7 @@ function Notice() {
             <strong>Case Status:</strong> Pending
           </Text>
           <Text fontSize={"0.7rem"} color="red.500">
-            <strong>Case Register:</strong> Delhi Consumer Court
+            <strong>Case Register:</strong> Chandigarh  Consumer Court
           </Text>
         </Stack>
       </Box>
